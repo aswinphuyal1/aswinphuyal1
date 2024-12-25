@@ -75,6 +75,7 @@ function App() {
         /users/home --> Component 2 */}
           <Route exact path="/about" element={<About mode={mode} />} />
           <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>} />
+          <TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>
     </Routes>
     </div>
     </Router>

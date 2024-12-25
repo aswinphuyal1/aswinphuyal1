@@ -13,7 +13,6 @@
   }
 }
 
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -37,6 +36,19 @@
     transform: rotate(360deg);
   }
 }
-.blank{
+
+.blank {
   color: rgb(32, 8, 246);
+}
+
+/* Example of removing unsupported properties and pseudo-classes */
+
+/* Remove or replace -moz- properties */
+body {
+  transition: all 0.3s ease;
+}
+
+/* Remove or replace unsupported pseudo-classes */
+input:focus {
+  outline: none;
 }

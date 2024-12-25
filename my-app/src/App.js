@@ -87,6 +87,7 @@ function App() {
           heading="Try TextUtils - word counter, character counter, remove extra spaces"
           mode={mode}
         />
+        
 
         {/* Or display the About component */}
         { <About mode={mode} /> }

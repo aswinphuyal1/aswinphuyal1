@@ -61,7 +61,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+          🐼Will you be my Valentine febi vantu🐼🥹?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
@@ -89,10 +89,10 @@ const Footer = () => {
   return (
     <a
       className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/Xeven777/valentine"
+      href=""
       target="__blank"
     >
-      Made with{" "}
+      Made with{" Your Apple 🐼🍎"}
       <span role="img" aria-label="heart">
         ❤️
       </span>
